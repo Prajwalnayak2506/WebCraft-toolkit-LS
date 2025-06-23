@@ -1,3 +1,16 @@
 h1{
-    color:red;
+    color:#2BC016;
+    /* background-color: purple; */
 }
+p{
+    color: #26A96C;
+    /* background-color: rgb(141, 240, 141); */
+}
+button{
+    background-color: #32936F;
+    color:#387D7A;
+}
+body{
+    background-color: #395E66;
+}
+/* get cool color combos from coolors.co */
