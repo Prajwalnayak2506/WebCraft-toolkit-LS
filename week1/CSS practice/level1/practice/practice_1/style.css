@@ -1,0 +1,19 @@
+/* universal selector */
+*{
+    color:pink;
+    background-color: purple; 
+}
+/* element selector  */
+button{
+    background-color: magenta;
+}
+
+/* ID selector  */
+#myID{
+    color:rgb(207, 125, 138);
+}
+
+/* class selector */
+.class1{
+    color: rgb(255, 137, 156)
+}
