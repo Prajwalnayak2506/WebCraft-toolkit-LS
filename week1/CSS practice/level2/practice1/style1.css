@@ -1,0 +1,21 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#amazon{
+    height: 60px;
+    background-color: #0f1111;
+}
+a{
+    color: white;
+    margin-right: 200px;
+    text-decoration: none;
+}
+button{
+    background-color: #f08804;
+}
+#ama{
+    color: orange;
+    font-size: 25px;
+    margin-right: 200px;
+}

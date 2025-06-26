@@ -10,4 +10,4 @@ Extra bonus: make traffic light signal drawing.
 
 ### Q2:
 **Create the following navbar:**
-![alt text](image.png)
+![alt text](image-1.png)
