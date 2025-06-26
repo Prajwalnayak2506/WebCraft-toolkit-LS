@@ -1,25 +1,37 @@
-div{
+#d1{
     height: 100px;
     width: 100px;
-    background-color: pink;
-    border-width: 2px;
-    border-style: solid;
-    border-color: blueviolet;
-    
-    border-radius: 5px;
-    padding-left: 25px;
-    margin-top:50px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 50px;
 }
-button{
-    height: 20px;
-    margin: 20px 30px 40px 50px;
-}
-h1{
-    height: 50px;
+#outer{
+    height: 700px;
     width: 200px;
-    background-color: cadetblue;
-    border: 2px dotted black;
-    border-radius: 2%;
-    text-align: center;
-    margin: 25px;
+    background-color: rgb(29, 28, 28);
+    margin: 50px;
+    border-radius: 10px;
+}
+#inner1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 50px
+}
+
+#inner2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 50px
+}
+
+#inner3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 50px
 }
