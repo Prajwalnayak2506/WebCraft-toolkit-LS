@@ -1,0 +1,54 @@
+div{
+    background-color: aquamarine;
+    display: inline;
+}
+button{
+    display: block;
+}
+#b1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: block;
+    margin: 25px;
+}
+#b2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    display: block;
+    margin: 25px;
+    display: none; 
+    /* removes element only, and that space is given to next element */
+}
+#b3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: block;
+    margin: 25px;
+}
+
+#b4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: inline-block;
+    margin: 25px;
+}
+#b5{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255,0,0,0.5);
+    display: inline-block;
+    margin: 25px;
+    visibility: hidden;
+    /* removes element only, and that space is reserved */
+}
+#b6{
+    height: 100px;
+    width: 100px;
+    background-color:  rgba(255,0,0,0.5);
+    display: block;
+    margin: 25px;
+}
