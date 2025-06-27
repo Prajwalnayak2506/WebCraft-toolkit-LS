@@ -1,0 +1,11 @@
+#box1{
+ height: 100px;
+ width: 200px;
+ background-color: rgba(255,0,0,0.5);
+}
+#box2{
+ height: 50px;
+ width:50%;
+ background-color: rgba(0,255,0,0.25);
+ margin-left: 10%;
+}
