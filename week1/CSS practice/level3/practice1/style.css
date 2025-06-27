@@ -1,0 +1,47 @@
+div{
+   height: 100px; 
+   width: 100px;
+   background-color: aqua;
+   border: 2px solid black;
+   display: inline-block;
+}
+#box1{
+    position: static;
+    top:100px;
+    background-color: blueviolet;
+}
+#box2{
+    position: relative;
+    top:10px;
+    left: 20px;
+    background-color: bisque;
+}
+#box3{
+    position: absolute;
+    top:10px;
+    left:20px;
+    background-color: cadetblue;
+    z-index: 1;
+}
+#box4{
+    position: fixed;
+    bottom:10px;
+    right:20px;
+    z-index: 1;
+}
+#box5{
+    background-color: darkorange;
+    position: sticky;
+    top:0px;
+    z-index: 0;
+}
+p{
+    z-index: 2;
+}
+#box7{
+    position: relative;
+    left:40px;
+    bottom:10px;
+    background-color: brown;
+    z-index: -1;
+}
