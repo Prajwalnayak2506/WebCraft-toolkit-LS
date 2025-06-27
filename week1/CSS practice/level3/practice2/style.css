@@ -1,0 +1,7 @@
+div{
+    height: 200px;
+    width:200px;
+    background-image: url("universe.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
