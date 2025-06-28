@@ -1,0 +1,49 @@
+*{
+    color: palevioletred;
+}
+#navbar{
+    /* display: flex; */
+    background-color: pink;
+    /* justify-content: space-evenly; */
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;   
+}
+li{
+    list-style-type: none; 
+    /* to remove dots from list */
+    display: inline;
+}
+footer{
+    
+    bottom: 0px;
+    text-align: center;
+    display: block;
+    bottom: 0px;
+}
+#foot{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+#outer{
+    display: flex;
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    
+}
+#inner{
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 200px;
+}
+main{
+    min-height: 95vh;
+}
