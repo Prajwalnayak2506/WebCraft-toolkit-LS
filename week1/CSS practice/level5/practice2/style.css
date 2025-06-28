@@ -6,10 +6,9 @@ div{
      position: absolute;
      top:100px;
      left:100px;
-     transform: rotate(45deg);
-     rotate: x 45deg;    
+    transform: skew(30deg);
      transition: all 2s ease-in;
 }
 div:hover{
-    transform: scale(1.5);
+    transform: translate(80px,200px);
 }
