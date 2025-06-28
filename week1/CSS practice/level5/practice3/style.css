@@ -1,0 +1,54 @@
+#divi{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: aquamarine;
+    top:100px;
+    left:500px;
+    animation-name: colorAnimate;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes colorAnimate{
+    from{background-color: aquamarine;}
+    to {background-color: red;}
+}
+#divi:hover{
+   animation: color_Animate 2s ease-in 0s infinite alternate;  
+}
+@keyframes color_Animate{
+    from{
+        color: red;
+        background-color: darkcyan;
+    }
+    to {
+        color: rebeccapurple;
+        background-color: crimson;
+    }
+}
+#idiv{
+    height: 140px;
+    width: 300px;
+    background-color: palevioletred;
+    position: relative;
+    top:400px;
+    left:50px;
+    animation: cooly 4s ease-in 1s infinite alternate;
+}
+@keyframes cooly{
+    0%{
+        left: 0px;
+        background-color: yellow;
+        }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: green;
+        left: 200px;
+        color: aliceblue;
+    }
+}
