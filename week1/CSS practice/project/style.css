@@ -341,3 +341,23 @@
     align-items: center;
     justify-content: center;
 }
+.foot2{
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    color: #DDDDDD;
+    padding: 30px 0px 30px;
+}
+.foot2 ul{
+    display: flex;
+    flex-direction: column;
+}
+.foot2 ul a{
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 14px;
+    margin: 4px;
+}
+option{
+    font-weight: 600;
+}
