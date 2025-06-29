@@ -4,6 +4,7 @@
     border: border-box; 
     /* the above means that whenevr we set border, it will be included within the height n width*/
 }
+/* HEADER SECTION */
 .navbar{
     height: 60px;
     background-color: #0F1111;
@@ -216,4 +217,72 @@
     align-items: center;
 }
 
+
+/* CONTENT SECTION */
+.bg-img{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.p{
+    height: 600px;
+    width: 98.5%;
+    background-image: url("bg_image.jpg");
+    background-size: cover;
+}
+.color-bgm{
+    height: 600px;
+    width: 98.5%;
+    background-color: #D681FF;
+    
+}
+    
+.shops{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.shop{
+    position: absolute;
+    top: 350px;
+    height: 100%;
+    width: 98.5%;
+    display: flex;
+    justify-content: space-evenly;    
+}
+.box{
+    width: 23%;
+    height: 385px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.image{
+    height: 300px;
+    width: 275px;
+    background-image: url("gaming.jpg");
+    background-size: cover;
+}
+.heading{
+    align-self: flex-start;
+    position: relative;
+    left: 32px;
+    font-size: 21px;
+}
+.shop-now{
+    align-self: flex-start;
+    text-decoration: none;
+    color: #2162A1;
+    font-size: 13px;
+    position: relative;
+    left: 32px;
+    font-weight: 500;
+}
 
