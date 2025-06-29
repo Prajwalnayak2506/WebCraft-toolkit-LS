@@ -375,7 +375,23 @@ option{
     width: 100px;
     background-color: #232F3E;
     margin-top: 20px;
+    margin-bottom: 20px;
     background-image: url("amazon_logo.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+.foot4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1e2b39;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.line1 ul a{
+    text-decoration: none;
+    color: white;
+    margin: 4px;
 }
