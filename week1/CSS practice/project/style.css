@@ -332,3 +332,12 @@
     background-size: cover;
 }
 /* footer */
+.foot1{
+    text-align: center;
+    background-color: #325578;
+    height: 49px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
