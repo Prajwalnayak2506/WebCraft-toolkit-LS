@@ -57,3 +57,29 @@ console.log("a===b", a===b); //gives false
 console.log("a==b && a===b ", a==b && a===b);
 console.log("a==b || a===b ", a==b || a===b);
 console.log("!(a==b && a===b) ", !(a==b && a===b));
+
+//conditional statements 
+let age = 16;
+//if statement
+if (age>=18){
+    console.log("You can watch adult shit lol");
+} 
+//if-else
+let color="blue";
+mode = "dark";
+if (mode === "dark"){
+    color = "black";
+} else{
+    color = "white";
+}
+//if-else-if
+if (mode === "dark"){
+    color = "black";
+} else if(mode === "pride"){
+    color = "rainbow";
+} else {
+    color="white";
+}
+
+let result = age>=18?"adult":"not adult";
+console.log(result);
