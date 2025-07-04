@@ -24,5 +24,17 @@ let y = BigInt("123");
 let z = Symbol("Helllooo!!")
 console.log("this is", y,"and its data type is", typeof y); //shows as string
 console.log("this is", z,"and its data type is", typeof z); //shows as string
-
+//object 
+let student ={
+    fullName: "Pedda Pranav",
+    age: 17,
+    percentage: 89,
+    isPass: false,
+};
+console.log(typeof student);
+//two ways of accessing 
+student["age"] = 22; 
+student.isPass = true;
+console.log(student["isPass"]); //here quotes
+console.log(student.age); //here no quotes
 
