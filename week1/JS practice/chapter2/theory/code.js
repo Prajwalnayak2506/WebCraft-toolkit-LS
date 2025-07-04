@@ -81,5 +81,11 @@ if (mode === "dark"){
     color="white";
 }
 
+//ternary opertor
 let result = age>=18?"adult":"not adult";
 console.log(result);
+
+//alert
+alert("oh my god, errors all over");
+//prompt
+let input = prompt("Enter whatever u want to : ");
