@@ -47,3 +47,25 @@ for(let key in student){
 }
 
 //strings in JS
+let strr = "praJwal nAyak    "
+console.log(strr);
+console.log(strr.length);
+console.log(strr[8]);
+console.log(strr[9]);
+console.log(strr[10]);
+console.log(strr[11]);
+console.log(strr[12]);
+str1=strr.toUpperCase();
+console.log(str1);
+str2=strr.toLowerCase();
+console.log(str2);
+str3 = str2.trim();
+console.log(str3); //removes extra outside whitespace
+
+//string interpolation
+let objex = {
+    item: "pen",
+    price: 20,
+};
+let specialString = `the item is ${objex.item} and its cost is ${objex.price}`;
+let specialString1 = `the sum of 1,2,3 is ${1+2+3}`;
