@@ -45,3 +45,5 @@ let student={
 for(let key in student){
     console.log("key=",key,"   value=",student[key]); //prints key
 }
+
+//strings in JS
