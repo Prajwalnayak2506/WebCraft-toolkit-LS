@@ -14,3 +14,11 @@ while(game_number != guess){
     guess = prompt("Guess the number");
 }
 alert("You guessed the right number");
+
+//question 3
+let preferredUsername = prompt("Enter your preferred username:");
+let str1 = preferredUsername.trim();
+let str2 = "@".concat(str1);
+let len = str1.length;
+alert(str2+len);
+

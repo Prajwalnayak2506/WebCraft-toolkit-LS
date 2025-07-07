@@ -69,3 +69,16 @@ let objex = {
 };
 let specialString = `the item is ${objex.item} and its cost is ${objex.price}`;
 let specialString1 = `the sum of 1,2,3 is ${1+2+3}`;
+
+// escape sequences
+console.log("Prajwal\nNayak");
+
+newString = "Cool Women";
+let str4 = str3.slice(1);
+let str5 = str3.slice(2,7);
+console.log(str4,str5);
+let str6 = " are amazingly crazy ";
+let str7 = newString.concat(str6);
+console.log(str7);
+str7 = str7.replace("crazy","smart");
+console.log(str7);
