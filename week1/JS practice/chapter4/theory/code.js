@@ -39,5 +39,5 @@ let val2 = veggies.unshift("potato");//unshift
 console.log(val2,veggies);
 let slicedArray = veggies.slice(1,3);//slice
 console.log(veggies,slicedArray);
-veggies.splice(2,2,"ginger","garlic","cinnamon");//splice
+veggies.splice(2,2,"ginger","garlic","cinnamon");//splice --> removes two elements from starting index 2, adn then adds the further elemtns starting from position 2 in the array
 console.log(veggies);
