@@ -22,10 +22,10 @@ let z = 500;
 summerFunction(x,y,z);
 //return 
 function sumReturner(a,b,c){
-    return z+b+c;
+    return a+b+c;
 }
 let p = 5;
 let q = 39;
-let r = 409;
+let r = 400;
 let total = sumReturner(p,q,r);
 console.log(total);
