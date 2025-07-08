@@ -13,3 +13,12 @@ for (let price in ogPrices){
     ogPrices[price] = ogPrices[price] - 0.1*ogPrices[price]; 
 }
 console.log(ogPrices);
+
+//question 3
+let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+companies.shift();
+console.log(companies);
+companies.splice(1,1,"Ola");
+console.log(companies);
+companies.push("Amazon");
+console.log(companies);
