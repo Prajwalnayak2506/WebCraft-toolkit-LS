@@ -39,3 +39,11 @@ let arr = [];
 for(let i=1;i<=n;i++){
     arr.push(i);
 }
+console.log(arr);
+let sumOfArray = arr.reduce((prev, curr) => {
+    return prev + curr;
+});
+let prodOfArray = arr.reduce((prev, curr) => {
+    return prev * curr;
+});
+console.log(`The sum is ${sumOfArray} and the product is ${prodOfArray}`);
