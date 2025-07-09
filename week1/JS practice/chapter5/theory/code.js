@@ -46,3 +46,8 @@ arr.forEach(function pritVal(val){ //each element in arr will be sent to functio
 arr.forEach((value,i) => { //first parameter is value, second is index, third value is the array itself
     console.log(value,i);
 });
+//some more array methods
+arrCube = arr.map((val) => { //map
+    return val**3;
+});
+console.log(arrCube);
