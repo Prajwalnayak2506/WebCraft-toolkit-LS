@@ -36,3 +36,13 @@ const sum = (a,b) => {
 }
 console.log(sum);
 console.log(sum(2,3));
+
+//forEach loop in arrays
+let arr = [1,2,3,4,5];
+arr.forEach(function pritVal(val){ //each element in arr will be sent to function
+    console.log(val);
+});
+//same thing as arrow function
+arr.forEach((value,i) => { //first parameter is value, second is index, third value is the array itself
+    console.log(value,i);
+});
