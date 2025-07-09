@@ -29,3 +29,10 @@ let q = 39;
 let r = 400;
 let total = sumReturner(p,q,r);
 console.log(total);
+
+//arrow functions
+const sum = (a,b) => {
+    return a+b;
+}
+console.log(sum);
+console.log(sum(2,3));
