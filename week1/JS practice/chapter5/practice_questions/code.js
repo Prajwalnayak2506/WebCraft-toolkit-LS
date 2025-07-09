@@ -20,3 +20,8 @@ const vowels = (stg) => {
     return count;
 }
 console.log(vowelCount("Charming Prince"));
+//question 3
+let array = [22,25,26,10,20,30,40,50,100];
+array.forEach((val) => {
+    console.log(val**2);
+});
