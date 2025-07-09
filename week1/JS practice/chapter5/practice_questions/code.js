@@ -32,3 +32,10 @@ aGrade = marks.filter((val) =>{
     return val>90;
 });
 console.log(aGrade);
+
+//question 5
+let n = prompt("Enter a number:");
+let arr = [];
+for(let i=1;i<=n;i++){
+    arr.push(i);
+}
