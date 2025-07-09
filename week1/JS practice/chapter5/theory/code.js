@@ -51,3 +51,17 @@ arrCube = arr.map((val) => { //map
     return val**3;
 });
 console.log(arrCube);
+arrEven = arrCube.filter((val) => { //filter
+    return val%2===0;
+});
+console.log(arrEven);
+let arr11 = [1,2,3,4];
+const output = arr11.reduce((acc,currVal)=>{ //reduce to find sum
+    return acc+currVal;
+});
+console.log(output);
+let arrayForMax = [1,33,45,53,375,46,67]; 
+const max = arrayForMax.reduce((prev, curr) =>{ //reduce to find maximum value in the array
+    return (curr>prev)?curr:prev;
+});
+console.log(max);
