@@ -1,0 +1,2 @@
+1. Create a H2 heading elements with text - "Hello JavaScript". Append "fron Apna College students" to this text using JS.
+2. Create 3 divs with common class name - "box". Access them and add some unique text to each of them.
