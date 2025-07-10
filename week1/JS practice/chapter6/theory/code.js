@@ -6,11 +6,14 @@ document.body.childNodes[1].innerText = "picsssssss"; //changes text in h1 in th
 //getting element by id
 let heading = document.getElementById("heading");
 console.log(heading);
+//getting element by class
 let pk = document.getElementsByClassName("pk");
 console.log(pk);
+//getting element by tag
 let paragraph = document.getElementsByTagName("p");
 console.log(paragraph);
-let elements = document.querySelector("p");
+//query selector
+let elements = document.querySelector("p"); //returns first elemts
 console.dir(elements);
-let elementsAll = document.querySelectorAll("p");
+let elementsAll = document.querySelectorAll("p"); //returns all elements
 console.dir(elementsAll);
