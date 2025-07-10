@@ -1,0 +1,2 @@
+1. Create a new button element. Give it a text "click me!", background color of red, and text color of white. Insert the button as the first element inside body tag.
+2. Create a <p> tag in html, give it a class and some styling. Now create a new class in CSS and try to append this class to the <p> elements. Did u notice how you overwrite the class when you add a new one. solve this problem using lassList.
