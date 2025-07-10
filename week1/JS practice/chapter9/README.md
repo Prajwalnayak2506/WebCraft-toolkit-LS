@@ -1,0 +1,1 @@
+The aim of this chapter is to build a rock paper scissor game using HTML CSS JS
