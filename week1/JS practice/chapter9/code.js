@@ -1,5 +1,7 @@
 let userScore = 0;
 let compScore = 0;
+let US = document.querySelector("#userScore");
+let CS = document.querySelector("#compScore");
 const choices = document.querySelectorAll(".choice");
 choices.forEach((choice) => {
     const userChoiceId = choice.getAttribute("Id")
@@ -7,6 +9,7 @@ choices.forEach((choice) => {
         playGame(userChoiceId);
     });
 });
+message = "Play Your move";
 const playGame =(userChoice) =>{
     console.log("user choice = ", userChoice);
     //generate computer choice
@@ -31,10 +34,29 @@ const playGame =(userChoice) =>{
 const showWinner = (userWin) => {
     if(userWin){
         console.log("you Win");
+        userScore++;
+        US.innerText = userScore;
     }
     else{
         console.log("you lose");
+        compScore++;
+        CS.innerText = compScore;
     }
+    if(userScore === 5){
+        message = "You Win, Click to play again";
+        restart();
+    }
+    else if(compScore === 5){
+        message = "You Lose, Click to play again";
+        restart();
+    }
+}
+const restart = () => {
+    userScore = 0;
+    compScore = 0;
+    let msg = document.querySelector("#msg");
+    msg.innerText = message ;
+    console.log(message);
 }
 const drawGame =() =>{
     console.log("Draw game");

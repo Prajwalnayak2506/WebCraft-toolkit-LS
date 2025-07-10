@@ -2,6 +2,13 @@
     margin: 0;
     text-align: center;
 }
+#rule{
+    background-color: #114076;
+    color: white;
+    padding: 0.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
 h1{
     background-color: #081b31;
     color: white;
