@@ -104,3 +104,23 @@ class Engineer1 extends Person1{
     }
 }
 let engObj = new Engineer1("chemical engg");
+//error handling
+let a = 5;
+
+let b = 10;
+console.log("1a=",a);
+console.log("1b=",b);
+console.log("2b=",b);
+console.log("3b=",b);
+console.log("4b=",b);
+console.log("5b=",b);
+console.log("6b=",b);
+try{
+console.log("7b=",c); //error : c is not defined : but because of this the remoaning part doest work : so we need to handle it using try-catch
+}
+catch(err){
+    console.log(err);
+}
+console.log("8b=",b);//this wiprinted irrespective of error
+console.log("b=",b);
+console.log("b=",b);
