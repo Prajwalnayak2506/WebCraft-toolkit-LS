@@ -1,0 +1,2 @@
+1. You are creating a website for you college. Create a class User with 2 properties, name and email. It also has a method called viewData() that allows user to view website data.
+2. Create a ew class called admin which inherits user. Add a new method called editData to admin that allows it to edit website data.
