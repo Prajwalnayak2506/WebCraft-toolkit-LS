@@ -24,3 +24,6 @@ const y = {
 };
 //to use the fucntoin calcTax in y, we can do the following:
 y.__proto__ = x;
+
+//classes in JS
+//class is a template to create objects : it is a blueprint for creatnign objects : it has variables and methods defined inside it
