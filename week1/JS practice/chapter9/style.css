@@ -42,6 +42,12 @@ img{
     align-items: center;
     justify-content: center;
 }
+.compChoice {
+    opacity: 0.75;
+    background-color: #083112;
+    align-items: center;
+    justify-content: center;
+}
 .scoreboard{
     display: flex;
     align-items: center;
