@@ -21,3 +21,28 @@ setTimeout(() => {
 },2000);
 console.log("four"); // this wont wait for the above two complete
 //the above is asynchronous pgmming
+
+//callbacks : functoin passed as an  argument to another fucnction
+function sum(a,b){
+    return a+b;
+}
+function calculator(a,b,sum){ //sum is a callback function
+    sum(a,b);
+}
+calculator(1,2,sum); //we shdnt use paranthises here
+const hello = () =>{
+    console.log("hello");
+}
+setTimeout(hello,3000);
+//callback hell : nested callbacks stacked below one another forming a pyramid structure
+//nesting : 
+let age = 19;
+if(age >=18){
+    if(age>=60){
+        console.log("senior");
+    }else{
+        console.log("middle");
+    }
+}else{
+    console.log("non adult");
+}
