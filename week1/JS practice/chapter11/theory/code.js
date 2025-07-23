@@ -210,3 +210,15 @@ async function getAllData(){
         await getData2(i);
     
 }
+// a small problem is that we need to put it in a function whcih is unnecessary
+//we ues IIFE to avoid unecessary call:
+//IIFE are methods that can be called as soon as they are defined, no need to call
+//to deifne : (function (){//..})();
+(async function (){
+    for(let i = 1; i<=5; i++) //clearly no hell
+        await getData2(i);
+    
+})();
+//small problem above is that we can use this only once
+//IIFE : immediately invoked function expression
+//we can read more on MDN
